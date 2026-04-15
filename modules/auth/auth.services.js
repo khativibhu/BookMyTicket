@@ -1,4 +1,4 @@
-import User from "./auth.model";
+import User from "./auth.model.js";
 import {generateResetToken,  generateAccessToken ,generateRefreshToken} from "../../utils/token.js";
 
 export class authServices{
