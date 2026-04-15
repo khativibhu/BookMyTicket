@@ -1,5 +1,5 @@
-import ApiResponse from "../../utils/api-response";
-import authServices from "./auth.services";
+import ApiResponse from "../../utils/api-response.js";
+import authServices from "./auth.services.js";
 
 const register = async(req,res)=>{
   const user = authServices.register(req.body);
